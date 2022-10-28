@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+  <h1>Register here</h1>
+  <form action="login.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="first name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Last name"><br>
+    <label for="pnumber">Phone number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+    <label for="email">Email address:</label> <br>
+    <input type="email" id="email" name="email"><br>
+    <label for="gender">Gender:</label> <br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+    <label for="birthday">Date of birth:</label> <br>
+    <input type="date" id="birthday" name="birthday"> <br>
+    <label for="birthday">Favourite color:</label> <br>
+    <input type="color" id="color" name="color"> <br>
+    <input type="submit" id="button" value="Register">
+    <form action="login.html">
+    <input type="submit" id="button" value="Login">
+    </form>
+</form>
+  
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
